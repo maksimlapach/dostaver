@@ -1,0 +1,89 @@
+.process {
+    padding-top: 93px;
+    min-height: 1857px;
+    .container {
+        position: relative;
+    }
+    .title_fz46 {
+        line-height: 66px;
+    }
+    &__img {
+        text-align: center;
+        margin-top: 62px;
+        img {
+            width: 24px;
+            height: 39px;
+        }
+    }
+    &__title {
+        margin-top: 19px;
+    }
+    &__wrapper {
+        margin: 46px auto 0 auto;
+        width: 1000px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 600px;
+        min-height: 161px;
+        padding: 38px 32px 38px 51px;
+        background-color: #fff;
+        border-radius: 38px;
+        margin-bottom: 30px;
+        &:nth-child(2), &:nth-child(5) {
+            margin-left: 400px;
+        }
+        &:nth-child(7) {
+            margin-left: 400px;
+            margin-bottom: 0;
+        }
+        &:nth-child(3) {
+            margin-left: 155px;
+        }
+        &_text, &_subtext {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: $text_color;
+            span {
+                font-weight: 600;
+            }
+        }
+        &_text {
+            position: relative;
+            margin-left: 89px;
+            &-first {
+                @include before_circle('1');
+            }
+            &-second {
+                @include before_circle('2');
+            }
+            &-third {
+                @include before_circle('3');
+            }
+            &-fourth {
+                @include before_circle('4');
+            }
+            &-fifth {
+                @include before_circle('5');
+            }
+            &-sixth {
+                @include before_circle('6');
+            }
+            &-seventh {
+                @include before_circle('7');
+            }
+        }
+        &_subtext {
+            margin-top: 27px;
+            p {
+                margin-bottom: 36px;
+            }
+            p:nth-child(6) {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

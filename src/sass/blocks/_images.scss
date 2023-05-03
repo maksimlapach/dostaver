@@ -1,0 +1,118 @@
+.cloud {
+    position: relative;
+    @include cloud_icon;
+    &_promo_left {
+        left: -164px;
+        top: 331px;
+    }
+    &_promo_right {
+        top: 202px;
+        right: 116px;
+    }
+    &_price_left {
+        top: 291px;
+        left: -24px;
+    }
+    &_price_right {
+        top: 460px;
+        right: -251px;
+    }
+    &_organization_left {
+        top: 300px;
+        left: -206px;
+    }
+    &_organization_right {
+        top: 225px;
+        right: -161px;
+    }
+    &_terminal_left {
+        top: 452px;
+        left: 155px;
+    }
+    &_terminal_right {
+        top: 595px;
+        right: 295px;
+    }
+    &_status {
+        left: -110px;
+        top: 116px;
+    }
+    &_founder {
+        top: 619px;
+        right: -19px;
+    }
+    &_cooperation {
+        top: 168px;
+        left: 90px;
+    }
+    &_process {
+        &_top {
+            top: 313px;
+            right: 290px;
+        }
+        &_bottom {
+            top: 1650px;
+            left: 271px;
+        }
+    }
+    &_package {
+        bottom: 0px;
+        right: -128px;
+    }
+    &_revenueAndReport {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.location {
+    position: relative;
+    @include location_icon;
+    &_promo_left {
+        top: 301px;
+        left: -21px;
+    }
+    &_promo_right {
+        top: 157px;
+        right: -43px;
+    }
+    &_price_left {
+        top: 607px;
+        left: -154px;
+    }
+    &_price_right {
+        top: 228px;
+        right: -152px;
+    }
+    &_organization {
+        &_mobile {
+            top: -71px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
+
+.stock {
+    position: relative;
+    &_organization_left {
+        @include stock_left;
+        bottom: 0;
+        left: -375px;
+    }
+    &_organization_right {
+        @include stock_right;
+        bottom: 0;
+        right: -375px;
+    }
+    &_process_left {
+        @include stock_left;
+        top: 1265px;
+        left: -375px;
+    }
+    &_process_right {
+        @include stock_right;
+        top: 1265px;
+        right: -375px;
+    }
+}

@@ -1,0 +1,16 @@
+.cooperation {
+    // background-color: $main_color;
+    padding-top: 110px;
+    padding-bottom: 94px;
+    .container {
+        position: relative;
+    }
+    h2 {
+        width: 955px;
+        margin: 0 auto;
+    }
+    &__descr {
+        width: 592px;
+        margin: 41px auto 0 auto;
+    }
+}

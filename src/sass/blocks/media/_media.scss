@@ -1,0 +1,1368 @@
+@media (max-width: 1919px) {
+    .price {
+        &__img {
+            &_car {
+                left: -315px;
+                height: 160px;
+                width: 194px;
+            }
+            &_stock {
+                right: -310px;
+                width: 490px;
+                height: 250px;
+            }
+        }
+    }
+
+    .stock {
+        &_organization_left {
+            height: 420px;
+            width: 300px;
+            left: -315px;
+        }
+        &_organization_right {
+            height: 420px;
+            width: 300px;
+            right: -315px;
+        }
+        &_process_left {
+            left: -315px;
+        }
+        &_process_right {
+            right: -315px;
+        }
+    }
+}
+
+@media (max-width: 1799px) {
+    .cloud {
+        &_promo {
+            &_left {
+                left: -131px;
+                top: 344px;
+            }
+            &_right {
+                top: 240px;
+                right: 129px;   
+            }
+        }
+        &_price {
+            &_right {
+                right: -140px;
+            }
+        }
+    }
+    .location {
+        &_promo {
+            &_left {
+                top: 315px;
+                left: -5px;
+            }
+            &_right {
+                top: 200px;
+                right: -13px;
+            }
+        }
+        &_price {
+            &_left {
+                top: 558px;
+            }
+        }
+    }
+    .stock {
+        &_organization_left {
+            height: 350px;
+            width: 250px;
+            left: -216px;
+        }
+        &_organization_right {
+            height: 350px;
+            width: 250px;
+            right: -216px;
+        }
+        &_process_left {
+            left: -215px;
+        }
+        &_process_right {
+            right: -215px;
+        }
+    }
+
+    .promo {
+        &__img {
+            &_stock {
+                width: 500px;
+                height: 300px;
+                left: -206px;
+            }
+            &_transparent-house {
+                height: 636px;
+            }
+            &_house {
+                right: -180px;
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+    .price {
+        &__img {
+            &_car {
+                left: -215px;
+            }
+            &_stock {
+                right: -208px;
+                width: 400px;
+                height: 209px;
+            }
+            &_route-start {
+                top: 500px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1599px) {
+    .cloud {
+        &_promo {
+            &_left {
+                left: -95px;
+                top: 360px;
+            }
+            &_right {
+                top: 260px;
+                right: 150px;   
+            }
+        }
+        &_price {
+            &_right {
+                right: -80px;
+            }
+        }
+        &_organization {
+            &_left {
+                left: -107px;
+            }
+            &_right {
+                right: -109px;
+            }
+        }
+        &_package {
+            right: 0;
+        }
+    }
+    .location {
+        &_promo {
+            &_left {
+                top: 330px;
+                left: 30px;
+            }
+            &_right {
+                top: 225px;
+                right: 28px;
+            }
+        }
+        &_price {
+            &_left {
+                top: 537px;
+                left: -127px;
+            }
+            &_right {
+                top: 219px;
+                right: -98px;
+            }
+        }
+    }
+    .stock {
+        &_organization {
+            &_left, &_right {
+                display: none;
+            }
+        }
+        &_process_left {
+            top: 845px;
+            left: -135px;
+        }
+        &_process_right {
+            top: 845px;
+            right: -135px;
+        }
+    }
+
+    .promo {
+        &__img {
+            &_stock {
+                width: 460px;
+                height: 280px;
+                left: -150px;
+            }
+            &_transparent-house {
+                height: 595px;
+                width: 370px;
+                left: 211px;
+            }
+            &_house {
+                right: -125px;
+                width: 370px;
+                height: 370px;
+            }
+            &_car {
+                height: 166px;
+                width: 340px;
+            }
+        }
+        &__intime {
+            top: 174px;
+            left: 105px;
+        }
+    }
+    .price {
+        &__img {
+            &_route {
+                &-start {
+                    left: -98px;
+                    width: 300px;
+                    height: 138px;
+                }
+                &-end {
+                    right: -69px;
+                    height: 90px;
+                    width: 270px;
+                }
+            }
+            &_car {
+                left: -135px;
+            }
+            &_stock {
+                right: -127px;
+                width: 317px;
+                height: 166px;
+            }
+        }
+    }
+    .terminal {
+        &__info {
+            width: 1400px;
+            padding: 75px 110px 95px 110px;
+        }
+    }
+    .founder {
+        &__car {
+            left: -115px;
+        }
+    }
+}
+
+@media (max-width: 1439px) {
+    .location {
+        width: 50px;
+        height: 70px;
+        &_promo {
+            &_left {
+                top: 370px;
+                left: 141px;
+            }
+            &_right {
+                top: 272px;
+                right: 136px;
+            }
+        }
+        &_price {
+            &_left, &_right {
+                display: none;
+            }
+        }
+    }
+    .cloud {
+        width: 64px;
+        height: 31px;
+        &_promo {
+            &_left {
+                left: 25px;
+                top: 325px;
+            }
+            &_right {
+                top: 125px;
+                right: 100px;
+            }
+        }
+        &_price {
+            &_left {
+                left: 0;
+            }
+            &_right {
+                right: 0;
+            }
+        }
+        &_organization {
+            &_left, &_right {
+                display: none;
+            }
+        }
+        &_status {
+            left: 0px;
+        }
+        &_founder {
+            right: 0;
+        }
+    }
+    .stock {
+        &_process_left, &_process_right {
+            display: none;
+        }
+    }
+    .title {
+        &_fz62 {
+            font-size: 60px;
+        }
+        &_fz32 {
+            font-size: 30px;
+        }
+        &_fz20 {
+            font-size: 18px;
+        }
+    }
+    .promo {
+        &__img {
+            &_stock {
+                width: 420px;
+                height: 256px;
+                left: -27px;
+            }
+            &_transparent-house {
+                height: 544px;
+                width: 345px;
+                left: 303px;
+            }
+            &_house {
+                right: -6px;
+                width: 340px;
+                height: 340px;
+            }
+            &_car {
+                height: 146px;
+                width: 300px;
+            }
+        }
+        &__intime {
+            top: 105px;
+            left: 80px;
+        }
+    }
+    .price {
+        &__img {
+            &_car, &_stock, &_route-start, &_route-end {
+                display: none;
+            }
+        }
+    }
+    .terminal {
+        &__info {
+            width: 1100px;
+            padding: 75px 29px 95px 29px;
+            &-item {
+                &_short {
+                    width: 347px;
+                }
+            }
+        }
+    }
+    .founder {
+        &__car {
+            left: 0px;
+            top: 919px;
+            img {
+                width: 620px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .contacts {
+        grid-template-columns: 220px 126px;
+    }
+    .title {
+        &_fz62 {
+            font-size: 57px;
+        }
+        &_fz32 {
+            font-size: 27px;
+        }
+        &_fz20 {
+            font-size: 16px;
+        }
+    }
+
+    .location {
+        height: 50px;
+        width: 36px;
+        &_promo {
+            &_left {
+                top: 430px;
+                left: 112px;
+            }
+            &_right {
+                top: 333px;
+                right: 118px;
+            }
+        }
+    }
+    .cloud {
+        &_promo {
+            &_left {
+                top: 350px;
+            }
+            &_right {
+                top: 217px;
+            }
+        }
+        &_status {
+            top: 80px;
+        }
+        &_process {
+            &_top {
+                right: 100px;
+            }
+            &_bottom {
+                left: 100px;
+            }
+        }
+    }
+
+    .header {
+        &__wrapper {
+            grid-template-columns: 370px 220px 370px;
+        }
+    }
+    .promo {
+        padding-top: 50px;
+        &__img {
+            &_stock {
+                width: 350px;
+                height: 214px;
+                left: -29px;
+            }
+            &_transparent-house {
+                height: 452px;
+                width: 293px;
+                left: 245px;
+            }
+            &_house {
+                width: 300px;
+                height: 300px;
+                right: -12px;
+            }
+            &_car {
+                width: 240px;
+                height: 117px;
+                left: 365px;
+            }
+        }
+        &__intime {
+            width: 110px;
+            left: 10px;
+        }
+        &__circle {
+            width: 110px;
+            height: 110px;
+            font-size: 13px;
+            span {
+                font-size: 31px;
+            }
+        }
+        &__text {
+            font-size: 12px;
+        }
+    }
+    .organization {
+        padding-top: 100px;
+        &__wrapper {
+            grid-template-columns: 570px;
+            justify-content: center;
+        }
+    }
+    .terminal {
+        &__info {
+            width: 960px;
+        }
+    }
+    .status {
+        &__wrapper {
+            grid-template-columns: repeat(3, 306px);
+            gap: 20px;
+        }
+    }
+    .founder {
+        &__car {
+            top: 995px;
+            img {
+                width: 470px;
+                height: 225px;
+            }
+        }
+        &__circle {
+            &-team {
+                left: 90px;
+            }
+            &-awards {
+                right: 0;
+            }
+        }
+    }
+    .footer {
+        &__founder {
+            width: 200px;
+        }
+    }
+
+    .process {
+        &__wrapper {
+            width: 100%;
+        }
+        &__item {
+            &:nth-child(2), &:nth-child(5), &:nth-child(7) {
+                margin-left: 360px;
+            }
+        }
+    }
+    .revenueAndReport {
+        &__wrapper {
+            grid-template-columns: repeat(2, 465px);
+            gap: 30px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .location {
+        &_promo {
+            &_left {
+                top: 488px;
+                left: 100px;
+            }
+            &_right {
+                top: 352px;
+                right: 112px;
+            }
+        }
+    }
+    .cloud {
+        &_promo {
+            &_left {
+                left: 0;
+            }
+            &_right {
+                right: 0;
+            }
+        }
+        &_price {
+            &_left, &_right {
+                display: none;
+            }
+        }
+        &_terminal {
+            &_left {
+                top: 525px;
+                left: 20px;
+            }
+            &_right {
+                right: 100px;
+            }
+        }
+        &_founder {
+            top: 540px;
+        }
+        &_process_top, &_process_bottom {
+            display: none;
+        }
+        &_package {
+            bottom: 150px;
+            right: 100px;
+        }
+        &_revenueAndReport {
+            top: 250px;
+            left: 100px;
+        }
+    }
+
+    .header {
+        &__menu {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            transition: 0.6s all;
+            z-index: 10;
+        }
+        .show {
+            left: 0;
+        }
+        &__list {
+            position: relative;
+            height: 100vh;
+            width: 360px;
+            padding: 60px 192px 337px 54px;
+            flex-direction: column;
+            justify-content: start;
+            background-color: $text_color;
+            &-close {
+                display: block;
+                &:hover {
+                    opacity: 0.45;
+                }
+            }
+        }
+        &__link {
+            font-size: 24px;
+            line-height: 64px;
+        }
+        &__wrapper {
+            grid-template-columns: 200px 400px;
+            grid-template-rows: 100px;
+        }
+        &__logo {
+            height: 100px;
+            img {
+                margin-top: 32px;
+            }
+        }
+        .hamburger {
+            position: absolute;
+            top: 36px;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 28px;
+            height: 21px;
+            cursor: pointer;
+            span {
+                display: block;
+                background: #fff;
+                height: 4px;
+                width: 28px;
+                border-radius: 40px;
+            }
+            &:hover {
+                height: 25px;
+                transition: 1s all;
+            }
+        }
+    }
+
+    .promo {
+        &__img {
+            &_stock, &_transparent-house {
+                display: none;
+            }
+            &_house {
+                width: 260px;
+                height: 260px;
+                right: 0;
+            }
+            &_car {
+                left: 0;
+            }
+        }
+        &__intime {
+            top: 400px;
+            left: 267px;
+        }
+    }
+    .price {
+        &__table {
+            table {
+                width: 720px;
+            }
+        }
+        &__cell {
+            &_long {
+                padding-left: 33px;
+            }
+        }
+    }
+    .terminal {
+        &__info {
+            width: 720px;
+        }
+    }
+    .status {
+        h2, &__descr {
+            width: auto;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(auto-fill, 370px);
+            justify-content: center;
+        }
+    }
+    .founder {
+        min-height: 1831px;
+        padding-top: 60px;
+        .title {
+            width: auto;
+        }
+        &__photo {
+            margin-top: 60px;
+        }
+        &__circle {
+            &-experience {
+                top: 645px;
+            }
+            &-parcels {
+                top: 585px;
+            }
+            &-team {
+                left: 385px;
+                top: 890px;
+            }
+            &-awards {
+                top: 1233px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        &__car {
+            top: 1020px;
+            img {
+                width: 400px;
+                height: 190px;
+            }
+        }
+    }
+    .cooperation {
+        padding-top: 60px;
+        .title {
+            width: auto;
+        }
+    }
+    .footer {
+        padding-top: 22px;
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__founder {
+            width: 256px;
+        }
+        .contacts {
+            margin-top: 20px;
+        }
+    }
+    .process {
+        padding-top: 60px;
+        min-height: 2198px;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            &:nth-child(2), &:nth-child(3), &:nth-child(5), &:nth-child(7) {
+                margin-left: 0;
+            }
+        }
+    }
+    .package {
+        padding-top: 60px;
+        &__descr {
+            width: 100%;
+        }
+    }
+    .transmission {
+        padding-top: 60px;
+        &__wrapper {
+            grid-template-columns: 411px;
+            row-gap: 30px;
+        }
+    }
+    .revenueAndReport {
+        padding-top: 60px;
+        padding-bottom: 100px;
+        &__wrapper {
+            grid-template-columns: 511px;
+            gap: 50px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .contacts {
+        justify-content: center;
+    }
+    .location {
+        &_promo {
+            &_left {
+                top: 588px;
+            }
+            &_right {
+                top: 452px;
+            }
+        }
+    }
+    .cloud {
+        &_promo {
+            &_left {
+                top: 510px;
+                left: 0;
+            }
+            &_right {
+                top: 440px;
+                right: 0;
+            }
+        }
+        &_terminal {
+            &_left {
+                top: 640px;
+                left: 0px;
+            }
+            &_right {
+                top: 740px;
+                right: 60px;
+            }
+        }
+        &_status {
+            top: 130px;
+        }
+        &_package {
+            bottom: 190px;
+            right: 50px;
+        }
+    }
+
+    .header {
+        &__wrapper {
+            grid-template-columns: 540px;
+            grid-template-rows: repeat(2, 80px);
+        }
+        &__logo {
+            height: 100%;
+            text-align: left;
+            img {
+                margin-top: 22px;
+                margin-left: 70px;
+            }
+        }
+        .hamburger {
+            top: 26px;
+            right: 34px;
+            span {
+                background-color: $text_color;
+            }
+        }
+    }
+    .promo {
+        .form {
+            &__button, &__input {
+                width: 260px;
+                height: 80px;
+            }
+            &__button {
+                padding: 28px 50px;
+            }
+        }
+        padding-top: 25px;
+        .container {
+            min-height: 780px;
+        }
+        &__intime {
+            top: 445px;
+            left: 166px;
+        }
+    }
+    .price {
+        &__table {
+            table {
+                width: 540px;
+            }
+        }
+        &__cell {
+            font-size: 16px;
+            &_long {
+                padding-left: 25px;
+            }
+        }
+    }
+    .organization {
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+    .terminal {
+        &__info {
+            width: 540px;
+        }
+        .form {
+            &__button {
+                margin-top: 9px;
+            }
+        }
+    }
+    .founder {
+        min-height: 2250px;
+        &__car {
+            display: none;
+        }
+        &__circle {
+            left: 50%;
+            transform: translateX(-50%);
+            &-experience {
+                top: 708px;
+            }
+            &-parcels {
+                top: 1022px;
+            }
+            &-team {
+                top: 1336px;
+            }
+            &-awards {
+                top: 1650px;
+            }
+        }
+    }
+    .cooperation {
+        .form {
+            &__button {
+                margin-top: 9px;
+            }
+        }
+    }
+    .footer {
+        padding-bottom: 22px;
+        &__links {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    .process {
+        &__item {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 302px;
+    }
+    .contacts {
+        grid-template-columns: 176px 126px;
+        grid-template-rows: 41px;
+        &__phone {
+            a {
+                font-size: 18px;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    .title {
+        &_fz62 {
+            font-size: 48px;
+            line-height: 55px;
+        }
+        &_fz46 {
+            font-size: 36px;
+            line-height: 40px;
+        }
+        &_fz32 {
+            font-size: 24px;
+            line-height: 40px;
+        }
+        &_fz20 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .form {
+        margin-top: 32px;
+        &__input {
+            width: 284px;
+            height: 86px;
+            font-size: 15px;
+        }
+        &__button {
+            width: 284px;
+            height: 86px;
+            font-size: 14px;
+        }
+        &__privacy {
+            width: 300px;
+            margin: 9px auto 0 auto;
+            span {
+                font-size: 11px;
+                line-height: 30px;
+            }
+        }
+    }
+    .cloud {
+        &_promo {
+            &_right {
+                display: none;
+            }
+            &_left {
+                top: 779px;
+                left: 27px;
+                width: 84px;
+                height: 40px;
+            }
+        }
+        &_organization {
+            &_left {
+                display: block;
+                top: 2380px;
+                left: 20px;
+            }
+            &_right {
+                display: block;
+                top: 2315px;
+                right: 25px;
+            }
+        }
+        &_terminal {
+            &_left {
+                top: 180px;
+                left: 210px;
+            }
+            &_right {
+                top: 930px;
+                right: 30px;
+            }
+        }
+        &_status {
+            display: none;
+        }
+        &_founder {
+            top: 320px;
+        }
+        &_package {
+            right: 0;
+            bottom: 160px;
+        }
+        &_revenueAndReport {
+            top: 303px;
+            left: 60px;
+        }
+    }
+    .location {
+        &_promo {
+            &_right {
+                display: none;
+            }
+            &_left {
+                top: 804px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    .header {
+        .hamburger {
+            top: 21px;
+            right: 35px;
+        }
+        &__wrapper {
+            grid-template-columns: 302px;
+            grid-template-rows: 70px 41px;
+            row-gap: 18px;
+            justify-content: center;
+        }
+        &__list {
+            width: 100%;
+        }
+        &__logo {
+            img {
+                margin-top: 17px;
+                margin-left: 35px;
+            }
+        }
+    }
+    .promo {
+        border-bottom: 0px;
+        .container {
+            min-height: 1032px;
+        }
+        .form {
+            &__button, &__input {
+                width: 284px;
+                height: 86px;
+            }
+            &__button {
+                margin-top: 9px;
+            }
+        }
+        h2 {
+            margin-top: 12px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 18px;
+        }
+        &__intime {
+            top: 588px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 128px;
+        }
+        &__circle {
+            width: 128px;
+            height: 128px;
+            p {
+                font-size: 18px;
+            }
+            span {
+                font-size: 36px;
+            }
+        }
+        &__text {
+            font-size: 14px;
+        }
+        &__img {
+            &_car, &_house {
+                display: none;
+            }
+            &_stock {
+                display: block;
+                width: 265px;
+                height: 160px;
+                top: 872px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .price {
+        .container {
+            min-height: 590px;
+        }
+        padding-top: 38px;
+        &__table {
+            margin-top: 32px;
+            table {
+                width: 302px;
+            }
+        }
+        &__cell {
+            font-size: 14px;
+            height: 43px;
+            &_long {
+                padding-left: 16px;
+            }
+        }
+        &__subtitle {
+            margin-top: 15px;
+        }
+        &__mobile {
+            display: block;
+        }
+    }
+    .organization {
+        padding-top: 38px;
+        &__subtitle {
+            margin-top: 14px;
+        }
+        &__wrapper {
+            margin-top: 24px;
+            grid-template-columns: 295px;
+            gap: 20px;
+        }
+        &__item {
+            padding: 108px 26px 50px 20px;
+            &-title {
+                margin-left: 0;
+                &::before {
+                    top: -78px;
+                    left: 102px;
+                }
+            }
+        }
+        &__mobile {
+            display: block;
+        }
+    }
+    .terminal {
+        .form {
+            margin-top: 42px;
+            &__button {
+                padding: 28px 42px 28px 42px;
+            }
+        }
+        padding-top: 42px;
+        h2 {
+            text-align: left;
+        }
+        &__descr {
+            margin-top: 24px;
+            text-align: left;
+        }
+        &__img {
+            margin-top: 40px;
+            img {
+                width: 260px;
+                height: 269px;
+            }
+        }
+        &__info {
+            margin-top: 48px;
+            width: 302px;
+            padding: 30px 20px 23px 20px;
+            &__wrapper {
+                margin-top: 27px;
+            }
+        }
+    }
+    .status {
+        padding-top: 36px;
+        .title {
+            text-align: left;
+        }
+        &__descr {
+            margin-top: 14px;
+        }
+        &__wrapper {
+            margin-top: 25px;
+            grid-template-columns: repeat(auto-fill, 301px);
+        }
+        &__item {
+            padding: 44px 25px;
+            &-title {
+                margin-top: 20px;
+            }
+            &-descr {
+                margin-top: 14px;
+            }
+        }
+    }
+    .founder {
+        padding-top: 35px;
+        min-height: 2046px;
+        &__descr {
+            margin-top: 14px;
+        }
+        &__photo {
+            margin-top: 28px;
+            img {
+                width: 292px;
+                height: 292px;
+            }
+        }
+        &__circle {
+            &-experience {
+                top: 666px;
+            }
+            &-parcels {
+                top: 980px;
+            }
+            &-team {
+                top: 1294px;
+            }
+            &-awards {
+                padding: 54px 20px 50px 20px;
+                width: 360px;
+                height: 360px;
+                img {
+                    margin-top: 18px;
+                    width: 220px;
+                    height: 105px;
+                }
+            }
+        }
+    }
+    .cooperation {
+        padding-top: 27px;
+        padding-bottom: 54px;
+        .form {
+            &__button {
+                padding: 28px 42px 28px 42px;
+            }
+        }
+        &__descr {
+            margin-top: 14px;
+        }
+    }
+    .footer {
+        padding-top: 39px;
+        padding-bottom: 45px;
+        &__founder {
+            margin-top: 15px;
+            text-align: center;
+        }
+        &__links {
+            margin-top: 27px;
+        }
+        .contacts {
+            margin-top: 33px;
+        }
+    }
+
+    .process {
+        padding-top: 36px;
+        .title_fz46 {
+            line-height: 40px;
+        }
+        &__wrapper {
+            margin: 24px auto 0 auto;
+        }
+        &__item {
+            width: 298px;
+            padding: 104px 10px 43px 24px;
+            margin-bottom: 20px;
+            &_text {
+                margin-left: 0;
+                &::before {
+                    top: -76px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+        &__img {
+            margin-top: 33px;
+        }
+        &__title {
+            margin-top: 14px;
+            font-size: 24px;
+        }
+    }
+    .package {
+        padding-top: 47px;
+    }
+    .transmission {
+        padding-top: 51px;
+        &__title {
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__wrapper {
+            margin-top: 24px;
+            grid-template-columns: 300px;
+            row-gap: 20px;
+        }
+        &__item {
+            &_block {
+                text-align: center;
+            }
+        }
+    }
+    .revenueAndReport {
+        padding-bottom: 58px;
+        &__wrapper {
+            grid-template-columns: 300px;
+            gap: 53px;
+        }
+    }
+}

@@ -1,0 +1,127 @@
+// 1200px - 1439px
+
+@media (max-width: 1439px) {
+    .location {
+        width: 50px;
+        height: 70px;
+        &_promo {
+            &_left {
+                top: 370px;
+                left: 141px;
+            }
+            &_right {
+                top: 272px;
+                right: 136px;
+            }
+        }
+        &_price {
+            &_left, &_right {
+                display: none;
+            }
+        }
+    }
+    .cloud {
+        width: 64px;
+        height: 31px;
+        &_promo {
+            &_left {
+                left: 25px;
+                top: 325px;
+            }
+            &_right {
+                top: 125px;
+                right: 100px;
+            }
+        }
+        &_price {
+            &_left {
+                left: 0;
+            }
+            &_right {
+                right: 0;
+            }
+        }
+        &_organization {
+            &_left, &_right {
+                display: none;
+            }
+        }
+        &_status {
+            left: 0px;
+        }
+        &_founder {
+            right: 0;
+        }
+    }
+    .stock {
+        &_process_left, &_process_right {
+            display: none;
+        }
+    }
+    .title {
+        &_fz62 {
+            font-size: 60px;
+        }
+        &_fz32 {
+            font-size: 30px;
+        }
+        &_fz20 {
+            font-size: 18px;
+        }
+    }
+    .promo {
+        &__img {
+            &_stock {
+                width: 420px;
+                height: 256px;
+                left: -27px;
+            }
+            &_transparent-house {
+                height: 544px;
+                width: 345px;
+                left: 303px;
+            }
+            &_house {
+                right: -6px;
+                width: 340px;
+                height: 340px;
+            }
+            &_car {
+                height: 146px;
+                width: 300px;
+            }
+        }
+        &__intime {
+            top: 105px;
+            left: 80px;
+        }
+    }
+    .price {
+        &__img {
+            &_car, &_stock, &_route-start, &_route-end {
+                display: none;
+            }
+        }
+    }
+    .terminal {
+        &__info {
+            width: 1100px;
+            padding: 75px 29px 95px 29px;
+            &-item {
+                &_short {
+                    width: 347px;
+                }
+            }
+        }
+    }
+    .founder {
+        &__car {
+            left: 0px;
+            top: 919px;
+            img {
+                width: 620px;
+                height: 300px;
+            }
+        }
+    }
+}

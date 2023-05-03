@@ -1,0 +1,69 @@
+.terminal {
+    padding-top: 100px;
+    .container {
+        position: relative;
+    }
+    &__descr {
+        margin-top: 28px;
+        p {
+            margin-bottom: 40px;
+        }
+        span {
+            font-weight: 600;
+        }
+    }
+    &__img {
+        margin: 58px auto 0 auto;
+        text-align: center;
+        img {
+            width: 368px;
+            height: 380px;
+        }
+    }
+    &__info {
+        width: 1515px;
+        background-color: #fff;
+        margin: 132px auto 0 auto;
+        padding: 101px 139px 122px 139px;
+        border-radius: 38px;
+        &-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            min-height: 295px;
+            margin-top: 45px;
+        }
+        &-item {
+           display: flex;
+           align-items: end;
+           margin-bottom: 25px;
+            &_long {
+                width: 439px;
+                min-height: 136px;
+            }
+            &_short {
+                width: 384px;
+                min-height: 107px;
+            }
+        }
+        &-text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #4C0085;
+            text-align: center;
+            width: 100%;
+            position: relative;
+            @include icon_info;
+            span {
+                font-weight: 600;
+            }
+            p {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+                margin-bottom: 0;
+            }
+        }
+    }
+}

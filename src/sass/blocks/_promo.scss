@@ -1,0 +1,76 @@
+.promo {
+    padding-top: 60px;
+    border-bottom: 4px solid #fff;
+    .container {
+        position: relative; 
+        min-height: 710px;
+    }
+    &__img {
+        position: absolute;
+        &_stock {
+            bottom: 0px;
+            left: -240px;
+            width: 537px;
+            height: 311px;
+        }
+        &_house {
+            right: -235px;
+            bottom: 0;
+            height: 441px;
+            width: 441px;
+        }
+        &_transparent {
+            &-house {
+                bottom: 0;
+                opacity: 0.5;
+                left: 190px; 
+                z-index: 0;
+                height: 657px;
+                width: 391px;
+            }
+        }
+        &_car {
+            bottom: 0;
+            left: 406px;
+            height: 176px;
+            width: 360px;
+        }
+    }
+    &__subtitle {
+        margin-top: 17px;
+    }
+    &__intime {
+        position: absolute;
+        top: 163px;
+        left: 75px;
+        height: 171px;
+        width: 128px;
+        transform: rotate(-21.24deg);
+    }
+    &__circle {
+        width: 128px;
+        height: 128px;
+        padding-top: 44px; 
+        border-radius: 100%;
+        background-color: #fff;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #7700D1;
+        span {
+            font-size: 36px; 
+            line-height: 0; 
+        }
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 10px;
+        span {
+            font-weight: 600;
+        }
+    }
+}

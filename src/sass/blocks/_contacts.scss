@@ -1,0 +1,57 @@
+.contacts {
+    display: grid;
+    grid-template-columns: 249px 126px;
+    grid-template-rows: 50px;
+    justify-content: end;
+    &__phone {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        a {
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 21px;
+            color: #fff;
+            &:hover {
+                opacity: 0.45;
+            }
+        }
+        span {
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+        &_color {
+            a {
+                color: $text_color;
+            }
+            span {
+                color: $text_color;
+            }
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-whatsapp, &-telegram {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 40px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        &-whatsapp {
+            background: #48DB45;        
+        }
+        &-telegram {
+            background: #02ADFF;     
+        }
+        img {
+            width: 22px;
+            height: 22px;
+        }
+    }
+}

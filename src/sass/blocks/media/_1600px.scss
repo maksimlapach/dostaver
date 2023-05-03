@@ -1,0 +1,89 @@
+// 1600px - 1799px
+
+@media (max-width: 1799px) {
+    .cloud {
+        &_promo {
+            &_left {
+                left: -131px;
+                top: 344px;
+            }
+            &_right {
+                top: 240px;
+                right: 129px;   
+            }
+        }
+        &_price {
+            &_right {
+                right: -140px;
+            }
+        }
+    }
+    .location {
+        &_promo {
+            &_left {
+                top: 315px;
+                left: -5px;
+            }
+            &_right {
+                top: 200px;
+                right: -13px;
+            }
+        }
+        &_price {
+            &_left {
+                top: 558px;
+            }
+        }
+    }
+    .stock {
+        &_organization_left {
+            height: 350px;
+            width: 250px;
+            left: -216px;
+        }
+        &_organization_right {
+            height: 350px;
+            width: 250px;
+            right: -216px;
+        }
+        &_process_left {
+            left: -215px;
+        }
+        &_process_right {
+            right: -215px;
+        }
+    }
+
+    .promo {
+        &__img {
+            &_stock {
+                width: 500px;
+                height: 300px;
+                left: -206px;
+            }
+            &_transparent-house {
+                height: 636px;
+            }
+            &_house {
+                right: -180px;
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+    .price {
+        &__img {
+            &_car {
+                left: -215px;
+            }
+            &_stock {
+                right: -208px;
+                width: 400px;
+                height: 209px;
+            }
+            &_route-start {
+                top: 500px;
+            }
+        }
+    }
+}

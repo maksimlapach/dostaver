@@ -1,0 +1,82 @@
+.price {
+    padding-top: 100px;
+    // background: $main_color;
+    .container {
+        position: relative;
+        min-height: 810px;
+    }
+    &__img {
+        position: absolute;
+        &_car {
+            bottom: 0px;
+            left: -375px;
+            height: 176px;
+            width: 210px;
+        }
+        &_stock {
+            bottom: 0px;
+            right: -370px;
+            opacity: 0.05;
+            width: 544px;
+            height: 285px;
+        }
+        &_route {
+            &-start {
+                top: 553px;
+                left: -125px;
+                width: 353px;
+                height: 162px;
+            }
+            &-end {
+                right: -125px;
+                top: 264px;
+                height: 109px;
+                width: 326px;
+            }
+        }
+    }
+    &__subtitle {
+        margin-top: 25px;
+    }
+    &__table {
+        margin-top: 63px;
+        table {
+            margin: 0 auto;
+            width: 771px;
+            border: 1px solid #fff;
+        }
+    }
+    &__cell {
+        width: 128px;
+        height: 75px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        &_long {
+            text-align: left;
+            width: 259px;
+            padding-left: 41px;
+        }
+        &_color {
+           background: $main_color;
+           border: 1px solid #fff;
+           color: #fff;
+        }
+        &_white {
+            background: #fff;
+            border: 1px solid $main_color;
+            color: $main_color;
+        }
+    }
+
+    &__mobile {
+        display: none;
+        text-align: center;
+        margin-top: 51px;
+        &_img {
+            width: 292px;
+            height: 144px;
+        }
+    }
+}

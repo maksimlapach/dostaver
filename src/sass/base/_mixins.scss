@@ -1,0 +1,59 @@
+@mixin location_icon () {
+    position: absolute;
+    width: 60px;
+    height: 82px;
+    background: url('../icons/first_section/location_icon.svg') no-repeat 50%/cover;
+}
+
+@mixin cloud_icon {
+    position: absolute;
+    width: 84px;
+    height: 40px;
+    background: url('../icons/first_section/cloud.svg') no-repeat 50%/cover;
+}
+
+@mixin stock_left {
+    position: absolute;
+    height: 500px;
+    width: 378px;
+    background: url('../img/third_section/stock_left.svg') no-repeat 50%/cover;
+}
+
+@mixin stock_right {
+    position: absolute;
+    height: 500px;
+    width: 378px;
+    background: url('../img/third_section/stock_right.svg') no-repeat 50%/cover;
+}
+
+@mixin before_circle ($num) {
+    &::before {
+        content: $num;
+        position: absolute;
+        left: -86px;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 57px;
+        height: 57px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        background: $main_color;
+        border-radius: 100%;
+    }
+}
+
+@mixin icon_info {
+    &::before {
+        content: '';
+        display: block;
+        margin: 0 auto 20px auto;
+        width: 22px;
+        height: 22px;
+        background: url('../icons/fourth_section/icon_i.svg') no-repeat 50%/cover;
+    }
+}

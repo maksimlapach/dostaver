@@ -1,0 +1,36 @@
+// 1800px - 1919px
+@media (max-width: 1919px) {
+    .price {
+        &__img {
+            &_car {
+                left: -315px;
+                height: 160px;
+                width: 194px;
+            }
+            &_stock {
+                right: -310px;
+                width: 490px;
+                height: 250px;
+            }
+        }
+    }
+
+    .stock {
+        &_organization_left {
+            height: 420px;
+            width: 300px;
+            left: -315px;
+        }
+        &_organization_right {
+            height: 420px;
+            width: 300px;
+            right: -315px;
+        }
+        &_process_left {
+            left: -315px;
+        }
+        &_process_right {
+            right: -315px;
+        }
+    }
+}

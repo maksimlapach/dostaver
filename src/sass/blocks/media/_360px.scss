@@ -1,0 +1,472 @@
+// 360px - 575px
+
+@media (max-width: 575px) {
+    .container {
+        width: 302px;
+    }
+    .contacts {
+        grid-template-columns: 176px 126px;
+        grid-template-rows: 41px;
+        &__phone {
+            a {
+                font-size: 18px;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    .title {
+        &_fz62 {
+            font-size: 48px;
+            line-height: 55px;
+        }
+        &_fz46 {
+            font-size: 36px;
+            line-height: 40px;
+        }
+        &_fz32 {
+            font-size: 24px;
+            line-height: 40px;
+        }
+        &_fz20 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .form {
+        margin-top: 32px;
+        &__input {
+            width: 284px;
+            height: 86px;
+            font-size: 15px;
+        }
+        &__button {
+            width: 284px;
+            height: 86px;
+            font-size: 14px;
+        }
+        &__privacy {
+            width: 300px;
+            margin: 9px auto 0 auto;
+            span {
+                font-size: 11px;
+                line-height: 30px;
+            }
+        }
+    }
+    .cloud {
+        &_promo {
+            &_right {
+                display: none;
+            }
+            &_left {
+                top: 779px;
+                left: 27px;
+                width: 84px;
+                height: 40px;
+            }
+        }
+        &_organization {
+            &_left {
+                display: block;
+                top: 2380px;
+                left: 20px;
+            }
+            &_right {
+                display: block;
+                top: 2315px;
+                right: 25px;
+            }
+        }
+        &_terminal {
+            &_left {
+                top: 180px;
+                left: 210px;
+            }
+            &_right {
+                top: 930px;
+                right: 30px;
+            }
+        }
+        &_status {
+            display: none;
+        }
+        &_founder {
+            top: 320px;
+        }
+        &_package {
+            right: 0;
+            bottom: 160px;
+        }
+        &_revenueAndReport {
+            top: 303px;
+            left: 60px;
+        }
+    }
+    .location {
+        &_promo {
+            &_right {
+                display: none;
+            }
+            &_left {
+                top: 804px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    .header {
+        .hamburger {
+            top: 21px;
+            right: 35px;
+        }
+        &__wrapper {
+            grid-template-columns: 302px;
+            grid-template-rows: 70px 41px;
+            row-gap: 18px;
+            justify-content: center;
+        }
+        &__list {
+            width: 100%;
+        }
+        &__logo {
+            img {
+                margin-top: 17px;
+                margin-left: 35px;
+            }
+        }
+    }
+    .promo {
+        border-bottom: 0px;
+        .container {
+            min-height: 1032px;
+        }
+        .form {
+            &__button, &__input {
+                width: 284px;
+                height: 86px;
+            }
+            &__button {
+                margin-top: 9px;
+            }
+        }
+        h2 {
+            margin-top: 12px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 18px;
+        }
+        &__intime {
+            top: 588px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 128px;
+        }
+        &__circle {
+            width: 128px;
+            height: 128px;
+            p {
+                font-size: 18px;
+            }
+            span {
+                font-size: 36px;
+            }
+        }
+        &__text {
+            font-size: 14px;
+        }
+        &__img {
+            &_car, &_house {
+                display: none;
+            }
+            &_stock {
+                display: block;
+                width: 265px;
+                height: 160px;
+                top: 872px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .price {
+        .container {
+            min-height: 590px;
+        }
+        padding-top: 38px;
+        &__table {
+            margin-top: 32px;
+            table {
+                width: 302px;
+            }
+        }
+        &__cell {
+            font-size: 14px;
+            height: 43px;
+            &_long {
+                padding-left: 16px;
+            }
+        }
+        &__subtitle {
+            margin-top: 15px;
+        }
+        &__mobile {
+            display: block;
+        }
+    }
+    .organization {
+        padding-top: 38px;
+        &__subtitle {
+            margin-top: 14px;
+        }
+        &__wrapper {
+            margin-top: 24px;
+            grid-template-columns: 295px;
+            gap: 20px;
+        }
+        &__item {
+            padding: 108px 26px 50px 20px;
+            &-title {
+                margin-left: 0;
+                &::before {
+                    top: -78px;
+                    left: 102px;
+                }
+            }
+        }
+        &__mobile {
+            display: block;
+        }
+    }
+    .terminal {
+        .form {
+            margin-top: 42px;
+            &__button {
+                padding: 28px 42px 28px 42px;
+            }
+        }
+        padding-top: 42px;
+        h2 {
+            text-align: left;
+        }
+        &__descr {
+            margin-top: 24px;
+            text-align: left;
+        }
+        &__img {
+            margin-top: 40px;
+            img {
+                width: 260px;
+                height: 269px;
+            }
+        }
+        &__info {
+            margin-top: 48px;
+            width: 302px;
+            padding: 30px 20px 23px 20px;
+            &__wrapper {
+                margin-top: 27px;
+            }
+        }
+    }
+    .status {
+        padding-top: 36px;
+        .title {
+            text-align: left;
+        }
+        &__descr {
+            margin-top: 14px;
+        }
+        &__wrapper {
+            margin-top: 25px;
+            grid-template-columns: repeat(auto-fill, 301px);
+        }
+        &__item {
+            padding: 44px 25px;
+            &-title {
+                margin-top: 20px;
+            }
+            &-descr {
+                margin-top: 14px;
+            }
+        }
+    }
+    .founder {
+        padding-top: 35px;
+        min-height: 2046px;
+        &__descr {
+            margin-top: 14px;
+        }
+        &__photo {
+            margin-top: 28px;
+            img {
+                width: 292px;
+                height: 292px;
+            }
+        }
+        &__circle {
+            &-experience {
+                top: 666px;
+            }
+            &-parcels {
+                top: 980px;
+            }
+            &-team {
+                top: 1294px;
+            }
+            &-awards {
+                padding: 54px 20px 50px 20px;
+                width: 360px;
+                height: 360px;
+                img {
+                    margin-top: 18px;
+                    width: 220px;
+                    height: 105px;
+                }
+            }
+        }
+    }
+    .cooperation {
+        padding-top: 27px;
+        padding-bottom: 54px;
+        .form {
+            &__button {
+                padding: 28px 42px 28px 42px;
+            }
+        }
+        &__descr {
+            margin-top: 14px;
+        }
+    }
+    .footer {
+        padding-top: 39px;
+        padding-bottom: 45px;
+        &__founder {
+            margin-top: 15px;
+            text-align: center;
+        }
+        &__links {
+            margin-top: 27px;
+        }
+        .contacts {
+            margin-top: 33px;
+        }
+    }
+
+    .process {
+        padding-top: 36px;
+        .title_fz46 {
+            line-height: 40px;
+        }
+        &__wrapper {
+            margin: 24px auto 0 auto;
+        }
+        &__item {
+            width: 298px;
+            padding: 104px 10px 43px 24px;
+            margin-bottom: 20px;
+            &_text {
+                margin-left: 0;
+                &::before {
+                    top: -76px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+        &__img {
+            margin-top: 33px;
+        }
+        &__title {
+            margin-top: 14px;
+            font-size: 24px;
+        }
+    }
+    .package {
+        padding-top: 47px;
+    }
+    .transmission {
+        padding-top: 51px;
+        &__title {
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__wrapper {
+            margin-top: 24px;
+            grid-template-columns: 300px;
+            row-gap: 20px;
+        }
+        &__item {
+            &_block {
+                text-align: center;
+            }
+        }
+    }
+    .revenueAndReport {
+        padding-bottom: 58px;
+        &__wrapper {
+            grid-template-columns: 300px;
+            gap: 53px;
+        }
+    }
+    .privacy {
+        padding-top: 31px;
+        padding-bottom: 60px;
+        .title {
+            font-size: 28px;
+            line-height: 32px;
+        }
+        &__descr {
+            &_title:nth-child(1) {
+                margin-top: 0;
+            }
+            margin-top: 25px;
+        }
+        &__mobile {
+            &_text {
+                display: none;
+            }
+            &_full {
+                display: block;
+            }
+        }
+    }
+
+    .modal {
+        &__content {
+            width: 360px;
+            border-radius: 0;
+            &_consult {
+                height: 630px;
+                padding-top: 59px;
+                padding-bottom: 148px;
+            }
+            &_thanks {
+                height: 370px;
+                padding-top: 68px;
+            }
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 34px;
+            margin-top: 19px;
+        }
+        &__subtitle {
+            margin-top: 13px;
+        }
+        &__close {
+            top: 30px;
+            right: 30px;
+        }
+        .form {
+            margin-top: 34px;
+            &__input, &__button {
+                width: 284px;
+            }
+        }
+    }
+}

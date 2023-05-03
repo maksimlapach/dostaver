@@ -1,0 +1,80 @@
+.founder {
+    min-height: 1338px;
+    padding-top: 119px;
+    .container {
+        position: relative;
+    }
+    h2 {
+        width: 900px;
+        margin: 0 auto;
+    }
+    &__descr {
+        width: 692px;
+        margin: 27px auto 0 auto;
+        span {
+            font-weight: 600;
+        }
+    }
+    &__photo {
+        text-align: center;
+        margin-top: 103px;
+        img {
+            width: 370px;
+            height: 370px;
+            border-radius: 100%;
+        }
+    }
+    &__car {
+        position: absolute;
+        left: -190px;
+        top: 861px;
+        img {
+            width: 732px;
+            height: 358px;
+        }
+    }
+    &__circle {
+        position: absolute;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: $text_color;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 93px 23px 93px 23px;
+        width: 292px;
+        height: 292px;
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 24px;
+            margin-bottom: 27px;
+        }
+        &-experience {
+            top: 238px;
+            left: 0;
+        }
+        &-parcels {
+            top: 238px;
+            right: 0px;
+        }
+        &-team {
+            top: 640px;
+            left: 137px;
+        }
+        &-awards {
+            top: 680px;
+            right: 36px;
+            width: 538px;
+            height: 538px;
+            padding: 110px 55px 150px 55px;
+            img {
+                margin-top: 26px;
+                width: 302px;
+                height: 145px;
+            }
+        }
+    }
+}

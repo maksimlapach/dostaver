@@ -1,0 +1,29 @@
+.revenueAndReport {
+    padding-top: 80px;
+    padding-bottom: 150px;
+    .container {
+        position: relative;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 474px 511px;
+        justify-content: center;
+        column-gap: 85px;
+    }
+    &__item {
+        text-align: center;
+        &-title {
+            margin-top: 26px;
+        }
+        &-descr {
+            margin-top: 32px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #FFFFFF;
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -1,0 +1,165 @@
+// 576px - 767px
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .contacts {
+        justify-content: center;
+    }
+    .location {
+        &_promo {
+            &_left {
+                top: 588px;
+            }
+            &_right {
+                top: 452px;
+            }
+        }
+    }
+    .cloud {
+        &_promo {
+            &_left {
+                top: 510px;
+                left: 0;
+            }
+            &_right {
+                top: 440px;
+                right: 0;
+            }
+        }
+        &_terminal {
+            &_left {
+                top: 640px;
+                left: 0px;
+            }
+            &_right {
+                top: 740px;
+                right: 60px;
+            }
+        }
+        &_status {
+            top: 130px;
+        }
+        &_package {
+            bottom: 190px;
+            right: 50px;
+        }
+    }
+
+    .header {
+        &__wrapper {
+            grid-template-columns: 540px;
+            grid-template-rows: repeat(2, 80px);
+        }
+        &__logo {
+            height: 100%;
+            text-align: left;
+            img {
+                margin-top: 22px;
+                margin-left: 70px;
+            }
+        }
+        .hamburger {
+            top: 26px;
+            right: 34px;
+            span {
+                background-color: $text_color;
+            }
+        }
+    }
+    .promo {
+        .form {
+            &__button, &__input {
+                width: 260px;
+                height: 80px;
+            }
+            &__button {
+                padding: 28px 50px;
+            }
+        }
+        padding-top: 25px;
+        .container {
+            min-height: 780px;
+        }
+        &__intime {
+            top: 445px;
+            left: 166px;
+        }
+    }
+    .price {
+        &__table {
+            table {
+                width: 540px;
+            }
+        }
+        &__cell {
+            font-size: 16px;
+            &_long {
+                padding-left: 25px;
+            }
+        }
+    }
+    .organization {
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+    .terminal {
+        &__info {
+            width: 540px;
+        }
+        .form {
+            &__button {
+                margin-top: 9px;
+            }
+        }
+    }
+    .founder {
+        min-height: 2250px;
+        &__car {
+            display: none;
+        }
+        &__circle {
+            left: 50%;
+            transform: translateX(-50%);
+            &-experience {
+                top: 708px;
+            }
+            &-parcels {
+                top: 1022px;
+            }
+            &-team {
+                top: 1336px;
+            }
+            &-awards {
+                top: 1650px;
+            }
+        }
+    }
+    .cooperation {
+        .form {
+            &__button {
+                margin-top: 9px;
+            }
+        }
+    }
+    .footer {
+        padding-bottom: 22px;
+        &__links {
+            margin-top: 20px;
+            text-align: center;
+        }
+    }
+    .process {
+        &__item {
+            width: 100%;
+        }
+    }
+
+    .modal {
+        &__content {
+            width: 500px;
+        }
+    }
+}

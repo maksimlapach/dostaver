@@ -1,0 +1,58 @@
+.status {
+    padding-top: 104px;
+    .container {
+        position: relative;
+    }
+    h2 {
+        margin: 0 auto;
+        width: 910px;
+    }
+    &__descr {
+        width: 950px;
+        margin: 27px auto 0 auto;
+        span {
+            font-weight: 600;
+        }
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 370px);
+        grid-template-rows: minmax(282px, auto);
+        grid-auto-rows: minmax(282px, auto);
+        gap: 30px;
+        margin-top: 48px;
+    }
+    &__item {
+        text-align: center;
+        border: 2px solid #FFFFFF;
+        border-radius: 38px;
+        padding: 53px 16px 43px 16px;
+        color: #FFFFFF;
+        &-img {
+            &-phone {
+                width: 24px;
+                height: 24px;
+            }
+            &-alarm {
+                width: 24px;
+                height: 27px;
+            }
+            &-car {
+                width: 40px;
+                height: 23px;
+            }
+        }
+        &-title {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            margin-top: 30px;
+        }
+        &-descr {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            margin-top: 24px;
+        }
+    }
+}

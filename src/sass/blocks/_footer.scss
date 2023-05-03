@@ -1,0 +1,40 @@
+.footer {
+    min-height: 163px;
+    padding-top: 48px;
+    background-color: #fff;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 67px;
+    }
+    &__logo {
+        img {
+            width: 137px;
+            height: 36px;
+        }
+    }
+    &__founder {
+        width: 256px;
+        opacity: 0.45;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: $text_color;
+    }
+    &__links {
+        width: 237px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        a {
+            color: $text_color;
+            text-decoration: none;
+            border-bottom: 1px dashed $text_color;
+            &:hover {
+                opacity: 0.45;
+            }
+        }
+       
+    }
+}
